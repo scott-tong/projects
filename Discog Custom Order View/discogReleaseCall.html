@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="releaseRetrieveStyle.css"/>
+        <script type="text/javascript" src="jquery-3.2.0.js"></script>
+		<script type='text/javascript' src='knockout-3.4.2.js'></script>
+        <script type="text/javascript" src="releaseRetrieve.js"></script>
+    </head>
+    <body>
+    	<div id="releaseInfo">
+
+    	</div>
+            <button onclick=previousRelease()>Previous</button>
+            <button onclick=nextRelease()>Next</button>
+            <p>Release ID: <input data-bind="value: releaseIdToLookup"></p>
+            <button data-bind="click: lookUpRelease"> Look up </button>
+    </body>
+</html>

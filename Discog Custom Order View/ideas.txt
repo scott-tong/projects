@@ -1,0 +1,2 @@
+Use the "description" field in orders to show the status through a format something like:
+type: pick up, release x (found) etc.
