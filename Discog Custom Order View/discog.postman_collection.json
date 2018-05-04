@@ -1,0 +1,114 @@
+{
+	"variables": [],
+	"info": {
+		"name": "discog",
+		"_postman_id": "d1a915fd-f050-63f1-e30d-570aa8062820",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get a realease with token",
+			"request": {
+				"url": {
+					"raw": "https://api.discogs.com/releases/1?token=JWFLkaHOvPVGJzKKgXCpdxaTprBxmNqFdkJWHfWJ",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discogs",
+						"com"
+					],
+					"path": [
+						"releases",
+						"1"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "JWFLkaHOvPVGJzKKgXCpdxaTprBxmNqFdkJWHfWJ",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "List Orders",
+			"request": {
+				"url": {
+					"raw": "https://api.discogs.com/marketplace/orders?status=New Order&token=pMpLSjtRlBohrZjOIMgrKhDSkZaqlpcPJnZdQMys",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discogs",
+						"com"
+					],
+					"path": [
+						"marketplace",
+						"orders"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "New Order",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "token",
+							"value": "pMpLSjtRlBohrZjOIMgrKhDSkZaqlpcPJnZdQMys",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get specific order",
+			"request": {
+				"url": {
+					"raw": "https://api.discogs.com/marketplace/orders/1872343-87?token=pMpLSjtRlBohrZjOIMgrKhDSkZaqlpcPJnZdQMys",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discogs",
+						"com"
+					],
+					"path": [
+						"marketplace",
+						"orders",
+						"1872343-87"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "pMpLSjtRlBohrZjOIMgrKhDSkZaqlpcPJnZdQMys",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

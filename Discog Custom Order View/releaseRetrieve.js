@@ -1,8 +1,8 @@
 var listIndex = 0;
 var orderJson;
-var oauth_consumer_key = "";
-var oauth_token = "";
-var token = "";
+var oauth_consumer_key = "BwMnLoVlnyQMZHNbCEUc";
+var oauth_token = "qVsUidCcOBTNxYOsgeRzrwNHBepCpCHCeRtbYdKv";
+var token = "JWFLkaHOvPVGJzKKgXCpdxaTprBxmNqFdkJWHfWJ";
 
 $(document).ready(function() {
 	$.getJSON( "orderExample.json", function( data ) {
@@ -18,9 +18,9 @@ $(document).ready(function() {
 });
 var listIndex = 0;
 var orderJson;
-var oauth_consumer_key = "";
-var oauth_token = "";
-var token = "";
+var oauth_consumer_key = "BwMnLoVlnyQMZHNbCEUc";
+var oauth_token = "qVsUidCcOBTNxYOsgeRzrwNHBepCpCHCeRtbYdKv";
+var token = "JWFLkaHOvPVGJzKKgXCpdxaTprBxmNqFdkJWHfWJ";
 
 $(document).ready(function() {	
 	// Activates knockout.js
