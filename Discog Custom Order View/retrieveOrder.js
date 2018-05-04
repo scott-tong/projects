@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 
 function displayOrder(){
-	var tokenID="pMpLSjtRlBohrZjOIMgrKhDSkZaqlpcPJnZdQMys";
+	var tokenID="";
 	var orderID = getParameterByName("orderID", window.location.href);
 	var url = "https://api.discogs.com/marketplace/orders/" + orderID + "?token=" +tokenID;
 	console.log(url);
